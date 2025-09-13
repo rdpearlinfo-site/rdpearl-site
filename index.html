@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD Pearls - Wholesale South Sea Pearls</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="font-sans bg-slate-900/90 text-white">
+    <nav class="fixed w-full top-0 z-50 bg-slate-900/50 backdrop-blur-md border-b border-slate-700">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+          <div class="flex justify-between items-center h-20">
+
+            <!-- Logo -->
+            <div class="flex items-center">
+              <div class="w-12 h-12 pearl-glow rounded-full flex items-center justify-center mr-4">
+                <span class="text-2xl text-slate-800/50"><img src="image\logo.png"></span>
+            </div>
+            <div>
+                <span class="font-serif text-3xl font-bold text-white">RD Pearl</span>
+                <div class="text-xs text-slate-200 font-light tracking-wider">Wholesale South Sea Pearls</div>
+            </div>
+        </div>
+
+        <!-- Menu desktop -->
+        <div class="hidden lg:flex space-x-10">
+          <a href="index.html" class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">HOME</a>
+          <a href="#about" class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">ABOUT</a>
+          <a href="#collection  " class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">COLLECTION</a>
+          <a href="gallery.html" class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">GALLERY</a>
+          <a href="#services" class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">SERVICES</a>
+          <a href="#contact" class="text-slate-300 hover:text-white transition-colors font-medium tracking-wide">CONTACT</a>
+      </div>
+
+      <!-- Tombol hamburger (mobile) -->
+      <button id="menu-btn" class="lg:hidden text-white focus:outline-none">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+    </button>
+</div>
+</div>
+
+<!-- Menu mobile -->
+<div id="mobile-menu" class="hidden lg:hidden bg-slate-900/20 px-6 py-6 space-y-4">
+  <a href="index.html" class="block text-slate-300 hover:text-white">HOME</a>
+  <a href="#about" class="block text-slate-300 hover:text-white">ABOUT</a>
+  <a href="#collection" class="block text-slate-300 hover:text-white">COLLECTION</a>
+  <a href="gallery.html" class="block text-slate-300 hover:text-white">GALLERY</a>
+  <a href="#services" class="block text-slate-300 hover:text-white">SERVICES</a>
+  <a href="##contact" class="block text-slate-300 hover:text-white">CONTACT</a>
+</div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="relative min-h-[55vh] flex items-center justify-center bg-cover bg-center"
+style="background-image: url('image/white.jpeg');">
+<!-- Overlay gelap transparan biar teks tetap terbaca -->
+<div class="absolute inset-0 bg-black/10"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+            <h1 class="mt-32 font-serif text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+                Exquisite
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-300">
+                    South Sea Pearls
+                </span>
+            </h1>
+            <p class="text-xl text-slate-300 mb-10 leading-relaxed font-light">
+                Discover the world's finest South Sea pearls from Lombok, Indonesia, carefully sourced from pristine waters. We are your exclusive wholesale partner for luxury jewelry creations.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6">
+                <button class="bg-white text-slate-900 px-10 py-4 rounded-full font-semibold hover:bg-slate-100 transition-all hover:scale-105 tracking-wide">
+                    <a href="#collection">EXPLORE COLLECTION</a>
+                </button>
+                <button class="border-2 border-white text-white px-10 py-4 rounded-full font-semibold hover:bg-white hover:text-slate-900 transition-all tracking-wide">
+                    <a href="#inquiry">WHOLESALE INQUIRY</a>
+                </button>
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Collection Section -->
+<section id="collection" class="py-24 bg-white text-slate-900">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+            <h2 class="font-serif text-5xl font-bold mb-6">Pearl Collection</h2>
+            <div class="w-24 h-1 bg-slate-900 mx-auto mb-8"></div>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto font-light">
+                Each pearl in our collection represents years of natural formation in the pristine waters of the South Seas, 
+                carefully selected for exceptional quality and beauty.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-3 gap-12">
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center" id="whitepearl">                    
+                <div><img src="image\white.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">White Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Classic white South Sea pearls with mirror-like luster and perfect spherical shape. 
+                    The epitome of elegance and sophistication.
+                </p>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Size Range:</span>
+                        <span class="text-slate-600">9-18mm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Grade:</span>
+                        <span class="text-slate-600">AAA+</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Origin:</span>
+                        <span class="text-slate-600">Indonesia</span>
+                    </div>
+                </div>
+            </div>               
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center" id="goldenpearl">                    
+                <div><img src="image\gold.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">Golden Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Exquisite Golden South Sea Pearls, coveted worldwide for their rare beauty and unmatched luxury.
+                </p>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Size Range:</span>
+                        <span class="text-slate-600">9-15mm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Grade:</span>
+                        <span class="text-slate-600">AAA+</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Origin:</span>
+                        <span class="text-slate-600">Indonesia</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center">                    
+                <div><img src="image\golden.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">Golden Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Golden South Sea Pearls — rare, radiant, and truly unforgettable.
+                </p>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Size Range:</span>
+                        <span class="text-slate-600">8-12mm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Grade:</span>
+                        <span class="text-slate-600">AAA+</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Origin:</span>
+                        <span class="text-slate-600">Indonesia</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center" id="keshi">                    
+                <div><img src="image\keshi.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">Keshi Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Rare Keshi Pearls, prized by designers for their unique silhouettes and extraordinary iridescence.
+                </p>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Size Range:</span>
+                        <span class="text-slate-600">5-9mm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Grade:</span>
+                        <span class="text-slate-600">AAA+</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Origin:</span>
+                        <span class="text-slate-600">Indonesia</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center">                    
+                <div><img src="image\white_drop.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">White Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Our White South Sea Pearls embody purity and sophistication, perfect for creating luxury jewelry masterpieces.
+                </p>
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Size Range:</span>
+                        <span class="text-slate-600">8-13mm</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Shape:</span>
+                        <span class="text-slate-600">Drop</span>
+                    </div>
+                    <div class="flex justify-between border-b border-slate-200 pb-2">
+                        <span class="font-medium">Origin:</span>
+                        <span class="text-slate-600">Indonesia</span>
+                    </div>
+                </div>
+            </div> 
+            <div class="luxury-card rounded-3xl p-10 hover-lift text-center">                    
+                <div><img src="image\white2.jpeg" class="gambar-melengkung"></div>
+                <br><h3 class="font-serif text-3xl font-bold mb-4">White Pearls</h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                   White South Sea Pearls — classic, radiant, and eternally elegant.
+               </p>
+               <div class="space-y-3 text-sm">
+                <div class="flex justify-between border-b border-slate-200 pb-2">
+                    <span class="font-medium">Size Range:</span>
+                    <span class="text-slate-600">9-14mm</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-2">
+                    <span class="font-medium">Grade:</span>
+                    <span class="text-slate-600">AAA+</span>
+                </div>
+                <div class="flex justify-between border-b border-slate-200 pb-2">
+                    <span class="font-medium">Origin:</span>
+                    <span class="text-slate-600">Indonesia</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="flex flex-col sm:flex-row gap-6">
+        <button class="bg-black text-slate-900 px-10 py-4 rounded-full font-semibold hover:bg-slate-0 transition-all hover:scale-105 tracking-wide">
+            <a href="gallery.html" class="white-text">See More Products Videos on Gallery</a>
+        </button>
+
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-24 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="font-serif text-5xl font-bold text-slate-900 mb-8">Our Legacy</h2>
+                <div class="w-16 h-1 bg-slate-900 mb-8"></div>
+                <p class="text-lg text-slate-700 mb-8 leading-relaxed font-light">
+                   Indonesia is the world's largest supplier of South Sea pearls, accounting for approximately 43–50% of the world's pearl production, and Lombok is the primary production area. Southern Ocean white pearls produced in Lombok account for nearly 45% of the global market share. RD Pearl is part of this 45%.
+               </p>
+               <p class="text-lg text-slate-700 mb-12 leading-relaxed font-light">
+                We combine traditional expertise with modern quality standards, providing our wholesale partners 
+                with pearls that meet the highest expectations of luxury jewelry markets worldwide.
+            </p>
+
+            <div class="grid grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-slate-900 mb-2 font-serif">10+</div>
+                    <div class="text-slate-600 font-medium">Years Heritage</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-slate-900 mb-2 font-serif">100+</div>
+                    <div class="text-slate-600 font-medium">Global Partners</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-slate-900 mb-2 font-serif">20+</div>
+                    <div class="text-slate-600 font-medium">Countries Served</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative">
+            <div class="bg-slate-900/85 rounded-3xl p-12 text-white relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -mr-16 -mt-16"></div>
+                <div class="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full -ml-12 -mb-12"></div>
+
+                <div class="relative z-10">
+                    <h3 class="font-serif text-3xl font-bold mb-6">Quality Guarantee</h3>
+                    <ul class="space-y-4">
+
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 pearl-glow rounded-full mr-4 mt-1 flex-shrink-0"></div>
+                            <span class="text-slate-300">Professional grading and documentation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 pearl-glow rounded-full mr-4 mt-1 flex-shrink-0"></div>
+                            <span class="text-slate-300">Sustainable sourcing practices</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-6 h-6 pearl-glow rounded-full mr-4 mt-1 flex-shrink-0"></div>
+                            <span class="text-slate-300">Lifetime authenticity warranty</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-20">
+            <h2 class="font-serif text-5xl font-bold text-slate-900 mb-6">Wholesale Services</h2>
+            <div class="w-24 h-1 bg-slate-900 mx-auto mb-8"></div>
+            <p class="text-xl text-slate-600 max-w-3xl mx-auto font-light">
+                Comprehensive wholesale solutions designed to support your luxury jewelry business with premium pearls and exceptional service.
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="text-center group">
+                <div class="w-20 h-20 bg-slate-900/85 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                    <span class="text-3xl text-white">💎</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-slate-900/85 mb-4">Premium Selection</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Hand-picked pearls meeting the strictest quality standards for luxury jewelry applications.
+                </p>
+            </div>
+
+            <div class="text-center group">
+                <div class="w-20 h-20 bg-slate-900/85 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                    <span class="text-3xl text-white">📋</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-slate-900 mb-4">Custom Matching</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Precise color and size matching services for your specific jewelry design requirements.
+                </p>
+            </div>
+
+            <div class="text-center group">
+                <div class="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                    <span class="text-3xl text-white">🌍</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-slate-900 mb-4">Global Logistics</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Secure worldwide shipping with full insurance and tracking for peace of mind. Via FedEx and DHL.
+                </p>
+            </div>
+
+            <div class="text-center group">
+                <div class="w-20 h-20 bg-slate-900 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
+                    <span class="text-3xl text-white">🤝</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-slate-900 mb-4">Partnership Support</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Dedicated account management and technical support for long-term business relationships.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-24 ocean-gradient">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16">
+            <div>
+                <h2 class="font-serif text-5xl font-bold mb-8">Connect With Us</h2>
+                <div class="w-16 h-1 bg-white mb-8"></div>
+                <p class="text-xl text-slate-300 mb-12 leading-relaxed font-light">
+                    Ready to elevate your jewelry collection with premium South Sea pearls? 
+                    Our wholesale specialists are here to assist with your requirements.
+                </p>
+
+                <div class="space-y-8">
+                    <div class="flex items-center">
+                        <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mr-6">
+                            <span class="text-2xl">✉️</span>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-lg">Email</div>
+                            <div class="text-slate-300">rdpearlinfo@gmail.com</div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center">
+                        <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mr-6">
+                            <span class="text-2xl">📱</span>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-lg">WhatsApp & Wechat</div>
+                            <div class="text-slate-300">+62 81 907 630 645</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mr-6">
+                            <span class="text-2xl">📷</span>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-lg">Instagram</div>
+                            <div class="text-slate-300">
+                                <a href="https://www.instagram.com/rdpearls_" target="_blank" class="hover:underline">
+                                    @rdpearls_
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center">
+                        <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mr-6">
+                            <span class="text-2xl">🏢</span>
+                        </div>
+                        <div>
+                            <div class="font-semibold text-lg">Address</div>
+                            <div class="text-slate-300">Perumahan Graha As Sami Blok J No.14 Karang Pule, Sekarbela, Kota Mataram, NTB, Indonesia</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="inquiry">
+                <div class="luxury-card rounded-3xl p-10 text-slate-900" >
+                    <h3 class="font-serif text-3xl font-bold mb-8">Wholesale Inquiry</h3>
+                    <div class="luxury-card rounded-3xl p-10 text-slate-900">
+                        <p></p>
+                        <p class="mb-8 text-slate-600 leading-relaxed">
+                            Contact us directly via Email or WhatsApp for wholesale inquiries.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-6">
+                            <!-- Tombol Email -->
+                            <a href="mailto:rdpearlinfo@gmail.com?subject=Wholesale%20Inquiry&body=Halo%20RD%20Pearls%2C%0A%I%20Want to%20ask%20about%20how to buy%20pearl%20wholesale."
+                            class="w-full sm:w-auto text-center bg-slate-900 hover:bg-slate-800 text-white py-4 px-8 rounded-xl font-semibold transition-all hover:scale-105 tracking-wide">
+                            📧 Email
+                        </a>
+
+                        <!-- Tombol WhatsApp -->
+                        <a href="https://wa.me/6281907630645?text=Halo%20RD%20Pearls%2C%20I%20want to%20ask%20about%20how to buy pearl%20wholesale."
+                        target="_blank"
+                        class="w-full sm:w-auto text-center bg-green-600 hover:bg-green-700 text-white py-4 px-8 rounded-xl font-semibold transition-all hover:scale-105 tracking-wide">
+                        💬 WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-slate-900/90 py-16">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-4 gap-12">
+            <div class="lg:col-span-2">
+                <div class="flex items-center mb-6">
+                    <div class="w-12 h-12 pearl-glow rounded-full flex items-center justify-center mr-4">
+                        <span class="text-2xl text-slate-800"><img src="image\logo.png"></span>
+                    </div>
+                    <div>
+                        <span class="font-serif text-2xl font-bold text-white">RD Pearl</span>
+                        <div class="text-xs text-slate-200 font-light tracking-wider">Wholesale South Sea Pearls</div>
+                    </div>
+                </div>
+                <p class="text-slate-400 leading-relaxed mb-8 max-w-md">
+                    Setting the standard for luxury South Sea pearl wholesale since 2015. 
+                    Your trusted partner for exceptional quality and service.
+                </p>              
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-6 tracking-wide">PRODUCTS</h4>
+                <ul class="space-y-3 text-slate-400">
+                    <li><a href="#whitepearl" class="hover:text-white transition-colors">White Pearls</a></li>
+                    <li><a href="#goldenpearl" class="hover:text-white transition-colors">Golden Pearls</a></li>
+                    <li><a href="#keshi" class="hover:text-white transition-colors">Keshi Pearls</a></li>            
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="font-semibold text-white mb-6 tracking-wide">COMPANY</h4>
+                <ul class="space-y-3 text-slate-400">
+                    <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                    
+            </div>
+        </div>
+
+       <div class="border-t border-slate-800 mt-12 pt-8 flex justify-center">
+  <p class="text-slate-500 text-sm">© RD Pearl. All rights reserved.</p>
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+        // Smooth scrolling for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+        // Form submission
+  const form = document.querySelector('form');
+if (form) {
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Thank you for your wholesale inquiry! Our team will contact you within 24 hours to discuss your requirements.');
+    this.reset();
+  });
+}
+
+        // Button functionality
+    document.querySelectorAll('button').forEach(button => {
+        if (button.textContent.includes('EXPLORE COLLECTION')) {
+            button.addEventListener('click', () => {
+                document.querySelector('#collection').scrollIntoView({ behavior: 'smooth' });
+            });
+        } else if (button.textContent.includes('WHOLESALE INQUIRY')) {
+            button.addEventListener('click', () => {
+                document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
+            });
+        }
+    });
+
+
+
+        // Parallax effect for floating pearls
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const parallax = document.querySelectorAll('.floating');
+        const speed = 0.5;
+
+        parallax.forEach(element => {
+            const yPos = -(scrolled * speed);
+            element.style.transform = `translateY(${yPos}px)`;
+        });
+    });
+   const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  // Toggle buka/tutup menu
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+
+  // Tutup menu setelah klik salah satu link
+  document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+    });
+  });
+</script>
+</body>
+</html>
